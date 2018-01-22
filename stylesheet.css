@@ -6,7 +6,8 @@
 }
 
 #profileImg {
-  height: 500px;
+  margin-left: 100px;
+  height: 600px;
   float: left;
   padding: 0 20px 20px 0;
 }
@@ -14,7 +15,6 @@
 p {
   text-align: left;
   float: right;
-  margin-left: 100px;
   margin-right: 100px;
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
 }
