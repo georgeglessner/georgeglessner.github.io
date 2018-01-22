@@ -7,11 +7,9 @@
   width: 100px;
   height: 100px;
   margin-right: 50px;
+  margin-top: 100px;
 }
 
-#connect {
-  margin-bottom: 100px;
-}
 
 .text {
   padding: 100px 100px 100px 100px;
