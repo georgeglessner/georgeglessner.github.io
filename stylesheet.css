@@ -5,6 +5,12 @@
   margin-top: 100px;
 }
 
+.socialfooter{
+  width: 15px;
+  height: 15px;
+  margin-bottom: 3px;
+}
+
 #profileImg {
   margin-left: 100px;
   height: 600px;
@@ -33,4 +39,8 @@ p#about{
   margin-left: 170px;
   margin-right: 170px;
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
+}
+
+.centerh {
+  text-align: center;
 }
