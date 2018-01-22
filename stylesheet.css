@@ -5,7 +5,7 @@
   margin-top: 100px;
 }
 
-.socialfooter{
+.socialfooter {
   width: 15px;
   height: 15px;
   margin-bottom: 3px;
@@ -32,13 +32,14 @@ h1 {
 
 #resume {
   width: 75%;
-  height: 600px;;
+  height: 600px;
+  ;
 }
 
-.about{
-text-align: left;
-margin-left: 100px;
-margin-right: 100px;
+.about {
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
 }
 
