@@ -36,8 +36,9 @@ h1 {
 }
 
 .about{
-  margin-left: 100px;
-  margin-right: 100px;
+text-align: left;
+margin-left: 100px;
+margin-right: 100px;
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
 }
 
