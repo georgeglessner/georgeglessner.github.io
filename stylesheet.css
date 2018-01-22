@@ -28,3 +28,9 @@ h1 {
   width: 75%;
   height: 185vh;
 }
+
+p#about{
+  margin-left: 170px;
+  margin-right: 170px;
+  font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
+}
