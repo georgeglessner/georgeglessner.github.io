@@ -43,4 +43,5 @@ p#about{
 
 .centerh {
   text-align: center;
+  clear: both;
 }
