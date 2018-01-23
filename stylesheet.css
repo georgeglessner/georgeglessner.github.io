@@ -1,45 +1,47 @@
 .social {
-  width: 200px;
-  height: 200px;
-  margin-right: 50px;
-  margin-top: 100px;
-}
-
-.socialfooter {
-  width: 15px;
-  height: 15px;
-  margin-bottom: 3px;
+  width: 12.5em;
+  height: 12.5em;
+  margin-right: 3.125em;
+  margin-top: 6.250em;
 }
 
 #profileImg {
-  margin-left: 100px;
-  height: 600px;
+  margin-left: 6.250em;
+  height: 37.5em;
   float: left;
-  padding: 0 20px 20px 0;
+  padding: 0 1.25em 1.25em 0;
+  max-width: 100%;
 }
 
 p {
   text-align: left;
   float: right;
-  margin-right: 100px;
+  margin-right: 6.250em;
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
 }
 
 h1 {
-  margin-top: 50px;
-  margin-bottom: 25px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 #resume {
   width: 75%;
-  height: 600px;
-  ;
+  height: 37.5em;
+}
+
+#resume_header {
+  margin-top: 3em;
+  text-align: center;
+  clear: both;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 3.125em;
 }
 
 .about {
   text-align: left;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 6.250em;
+  margin-right: 6.250em;
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
 }
 
@@ -47,14 +49,14 @@ h1 {
   text-align: center;
   clear: both;
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 50px;
+  font-size: 3.125em;
 }
 
 p.project_description {
   /* margin-left: 25%;
   margin-right: 25%; */
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
-  margin-bottom: 30px;
+  margin-bottom: 1.875em;
   clear: both;
 }
 
@@ -76,7 +78,7 @@ p.project_description {
 }
 
 li {
-  padding-bottom: 10px;
+  padding-bottom: .625em;
 }
 
 a:link {
