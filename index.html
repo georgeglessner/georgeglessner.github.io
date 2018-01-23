@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="jumbotron.css" rel="stylesheet">
   <link rel="stylesheet" href="fontawesome-free-5.0.2/web-fonts-with-css/css/font-awesome.min.css">
   <link rel="stylesheet" href="stylesheet.css">
@@ -28,13 +28,17 @@
       </div>
     </div>
   </div>
-  <h1 class="header"> Welcome </h1>
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-5">Welcome</h1>
+    </div>
+  </div>
   <div class="container">
     <div class="row">
-      <div class="col-md">
+      <div class="col-md col-xs-12">
         <img src="images/profile.jpg" id="profileImg" alt="Profile Image">
       </div>
-      <div class="col-md">
+      <div class="col-md col-xs-12" id="main">
 
         <p>My name is George Glessner and I am currenty a senior at Grand Valley State University studying computer science with a minor in mathematics. </p>
 
@@ -46,7 +50,7 @@
         <p>Courses such as Discrete Structures and Linear Algebra have also increased my interest in mathematics. Graph theory is the topic that I have found most interesting throughout my math courses. Graph theory was covered in both of my Discrete Structures
           courses as well as Introduction to the Structure and Mechanics of Social Networks. </p>
 
-        <p>To find out more information about my work experience, check my <a href="about.html"></a> about page.</p>
+        <p>To find out more information about my work experience, check my about page.</p>
       </div>
     </div>
   </div>
