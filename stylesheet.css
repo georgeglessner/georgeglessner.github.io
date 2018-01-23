@@ -43,6 +43,7 @@ h1 {
 #resume {
   width: 100%;
   border: 1px solid;
+  margin-bottom: 2em;
 }
 
 #resume_header {
