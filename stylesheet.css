@@ -1,6 +1,6 @@
 .social {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   margin-right: 50px;
   margin-top: 100px;
 }
@@ -43,7 +43,50 @@ h1 {
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
 }
 
-.centerh {
+.header {
   text-align: center;
   clear: both;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 50px;
+}
+
+p.project_description {
+  /* margin-left: 25%;
+  margin-right: 25%; */
+  font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
+  margin-bottom: 30px;
+  clear: both;
+}
+
+.project_title {
+  text-align: left;
+}
+
+#current_projects {
+  text-align: left;
+  font-family: Verdana, Geneva, sans-serif;
+  color: grey;
+}
+
+#social_links {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+a:link {
+  color: grey;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: purple;
 }
