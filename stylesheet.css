@@ -29,10 +29,10 @@
 
 p {
   text-align: left;
-  /* float: right; */
   margin-right: 6.250em;
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
   clear: both;
+  font-size: 18px;
 }
 
 h1 {
@@ -56,6 +56,7 @@ h1 {
 
 .about {
   text-align: left;
+  margin: auto;
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
 }
 
@@ -67,8 +68,6 @@ h1 {
 }
 
 p.project_description {
-  /* margin-left: 25%;
-  margin-right: 25%; */
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
   margin-bottom: 1.875em;
   clear: both;
@@ -93,6 +92,7 @@ p.project_description {
 
 li {
   padding-bottom: .625em;
+  font-size: 18px;
 }
 
 a:link {
