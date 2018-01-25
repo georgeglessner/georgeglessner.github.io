@@ -84,7 +84,7 @@ p.project_description {
 }
 
 #social_links {
-  position: fixed;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
