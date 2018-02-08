@@ -74,6 +74,12 @@ p.project_description {
   clear: both;
 }
 
+#others {
+  max-width: 1em;
+  max-height: 1em;
+  padding-bottom: .1em;
+}
+
 #social_links {
   position: absolute;
   top: 50%;
