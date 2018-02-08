@@ -69,18 +69,9 @@ h1 {
 
 p.project_description {
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
+  font-size: 20px;
   margin-bottom: 1.875em;
   clear: both;
-}
-
-.project_title {
-  text-align: left;
-}
-
-#current_projects {
-  text-align: left;
-  font-family: Verdana, Geneva, sans-serif;
-  color: grey;
 }
 
 #social_links {
