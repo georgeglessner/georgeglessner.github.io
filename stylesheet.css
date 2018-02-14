@@ -75,14 +75,6 @@ p.project_description {
   padding-bottom: .1em;
 }
 
-/* Social Page */
-
-#social_links {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .social {
   width: 33%;
   max-width: 8em;
