@@ -1,16 +1,4 @@
-.social {
-  width: 33%;
-  max-width: 5em;
-  height: 33%;
-  max-height: 5em;
-  margin-top: 30%;
-}
-
-#profileImg {
-  margin-bottom: 3em;
-  max-width: 75%;
-  width=33%;
-}
+/* General */
 
 .display-5 {
   font-size: 3em;
@@ -19,7 +7,7 @@
   font-weight: bold;
 }
 
-.jumbotron{
+.jumbotron {
   background-color: #c8cbce !important;
   height: 1em;
 }
@@ -40,6 +28,16 @@ h1 {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
+/* Profile */
+
+#profileImg {
+  margin-bottom: 3em;
+  max-width: 75%;
+  width=33%;
+}
+
+/* Resume */
 
 #resume {
   width: 100%;
@@ -62,12 +60,7 @@ h1 {
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
 }
 
-.header {
-  text-align: center;
-  clear: both;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 3.125em;
-}
+/*  Projects */
 
 p.project_description {
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
@@ -82,18 +75,31 @@ p.project_description {
   padding-bottom: .1em;
 }
 
+/* Social Page */
+
 #social_links {
-  text-align: center;
-  position: relative;
-  top: 50%;
-  left: 45%;
-  transform: translate(-50%, -65%);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
+.social {
+  width: 33%;
+  max-width: 8em;
+  height: 33%;
+  max-height: 8em;
+  margin-top: 20%;
+  margin-left: 2em;
+}
+
+/* Lists */
 
 li {
   padding-bottom: .625em;
   font-size: 18px;
 }
+
+/* Links */
 
 a:link {
   color: grey;
