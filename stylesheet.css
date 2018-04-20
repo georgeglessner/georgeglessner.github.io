@@ -7,6 +7,13 @@
   font-weight: bold;
 }
 
+.display-6 {
+  font-size: 2em;
+  text-align: center;
+  color: #343a40;
+  font-weight: bold;
+}
+
 .jumbotron {
   background-color: #c8cbce !important;
   height: 1em;
