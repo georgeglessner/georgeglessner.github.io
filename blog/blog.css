@@ -3,6 +3,8 @@ body {
 }
 
 p {
+  font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
+  font-size: 18px;
   line-height: 30px;
 }
 
