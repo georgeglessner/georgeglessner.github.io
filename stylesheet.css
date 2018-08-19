@@ -23,6 +23,10 @@
   margin-top: -.5em;
 }
 
+.container {
+  padding-top: 25px;
+}
+
 p {
   text-align: left;
 /*margin-right: 6.250em; */
