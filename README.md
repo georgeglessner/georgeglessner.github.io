@@ -1,2 +1,5 @@
-# Personal Website 
-https://www.georgeglessner.com
+# Personal Website
+
+Personal website for George Glessner  
+
+www.georgeglessner.com
