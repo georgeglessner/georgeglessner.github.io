@@ -28,10 +28,10 @@
 }
 
 .center {
-  width: 33%;
+  /* width: 33%; */
   height: 33%;
   max-height: 8em;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 2em;
 }
 
@@ -52,8 +52,10 @@ h1 {
 /* Profile */
 
 #profileImg {
-  margin-bottom: 3em;
+  padding: 10px;
+  margin-left: 20%;
   max-width: 75%;
+  max-height: 75%;
 }
 
 /* Resume */
