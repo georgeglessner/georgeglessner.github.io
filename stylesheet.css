@@ -74,6 +74,14 @@ h1 {
   font-size: 3.125em;
 }
 
+#resume_link {
+  margin-top: 1em;
+  text-align: center;
+  clear: both;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+}
+
 .about {
   text-align: left;
   margin: auto;
