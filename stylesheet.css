@@ -1,134 +1,53 @@
-/* General */
-
-.display-5 {
-  font-size: 3em;
-  text-align: center;
-  color: #343a40;
-  font-weight: bold;
-}
-
-.display-6 {
-  font-size: 2em;
-  text-align: center;
-  color: #343a40;
-  font-weight: bold;
-}
-
-.jumbotron {
-  background-color: #c8cbce !important;
-  height: 1em;
-}
-
-.jumbotron h1 {
-  margin-top: -.5em;
-}
-
-.container {
-  padding-top: 25px;
-}
-
-.center {
-  height: 33%;
-  max-height: 8em;
-  margin-top: 10%;
-  margin-left: 2em;
-}
-
-p {
-  text-align: left;
-/*margin-right: 6.250em; */
-  font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
-  clear: both;
+body {
+  background: #fff;
+  color: #000;
+  font-family: 'Fira Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
   font-size: 18px;
-  line-height: 30px;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  margin-top: 1em;
-  margin-bottom: 1em;
+h1, h2, h3, h4, h5, h6, p, a, li, .about, .project_description, #resume_header, #resume_link {
+  font-family: inherit !important;
+  color: inherit !important;
+  font-weight: normal;
 }
 
-/* Profile */
-
-#profileImg {
-  max-width: 100%;
-  max-height: 90%;
-  height: auto\9;
-  width: auto\9;
+a:link, a:visited, a:hover {
+  color: #000;
+  text-decoration: underline;
 }
 
-/* Resume */
-
-#resume {
-  width: 100%;
-  border: 1px solid;
-  margin-bottom: 2em;
-  text-align: center;
+img, iframe {
+  border: none;
 }
 
-#resume_header {
-  margin-top: 1em;
-  text-align: center;
-  clear: both;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 3.125em;
+/* Remove all Bootstrap and custom classes */
+.navbar, .navbar-brand, .navbar-toggler, .navbar-collapse, .navbar-nav, .nav-item, .nav-link, .container, .row, .col-md, .col-xs, .col-sm, .jumbotron, .display-5, .display-6, .center, .social, #others {
+  all: unset;
 }
 
-#resume_link {
-  margin-top: 1em;
-  text-align: center;
-  clear: both;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 1em;
+/* Remove padding/margins from containers */
+.container, .row, .col-md, .col-xs, .col-sm {
+  padding: 0 !important;
+  margin: 0 !important;
 }
-
-.about {
-  text-align: left;
-  margin: auto;
-  font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
-}
-
-/*  Projects */
-
-p.project_description {
-  font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica LT Std Light', 'Helvetica Neue LT Std', Helvetica;
-  font-size: 20px;
-  margin-bottom: 1.875em;
-  clear: both;
-}
-
-#others {
-  max-width: 1em;
-  max-height: 1em;
-  padding-bottom: .1em;
-}
-
-.social {
-  width: 33%;
-  max-width: 8em;
-  height: 33%;
-  max-height: 8em;
-  margin-top: 20%;
-  margin-left: 2em;
-}
-
-/* Lists */
 
 li {
-  padding-bottom: .625em;
   font-size: 18px;
+  padding-bottom: 0.5em;
 }
 
-/* Links */
-
-a:link {
-  color: grey;
+/* Hide scrollbars for iframes */
+iframe {
+  overflow: hidden;
 }
 
-a:visited {
-  color: grey;
-}
-
-a:hover {
-  color: purple;
+@media (max-width: 600px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1.1em !important;
+  }
+  nav, p {
+    font-size: 0.8em !important;
+  }
 }

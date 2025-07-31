@@ -1,64 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>George Glessner</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112927420-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-112927420-1');
-  </script>
-  <title>George Glessner</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap CSS -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="stylesheet.css">
-</head>
-
-<body>
-  <div class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="/">George Glessner</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-         </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="about">About</a>
-        <a class="nav-item nav-link" href="social">Social</a>
-        <a class="nav-item nav-link" href="projects">Projects</a>
-        <a class="nav-item nav-link" href="https://blog.georgeglessner.com">Blog</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md col-xs-12">
-        <img src="assets/profile.jpg" id="profileImg" alt="Profile Image">
-      </div>
-      <div class="col-md col-xs center">
-
-        <p>Hey 👋 I'm George Glessner, a passionate software developer with a deep love for technology and problem-solving.
-          When I'm not writing code, you can find me exploring the great outdoors—fishing, hiking or mountain biking.
+  <body>
+    <main style="max-width: 700px; margin: 40px auto; padding: 0 16px">
+      <nav style="text-align: center; margin: 32px 0">
+        <a href="/">Home</a> | <a href="about.html">About</a> |
+        <a href="social.html">Social</a> |
+        <a href="projects.html">Projects</a> |
+        <a href="https://blog.georgeglessner.com">Blog</a>
+      </nav>
+      <section
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: left;
+          min-height: 60vh;
+        "
+      >
+        <p>
+          Hey 👋 I'm George Glessner, a passionate software developer with a
+          deep love for technology and problem-solving.
         </p>
-
-        <p> I currently live in North Muskegon, Michigan. </p> 
-      </div>
-    </div>
-  </div>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-</body>
+        <p>
+          When I'm not writing code, you can find me exploring the great
+          outdoors fishing, hiking or mountain biking.
+        </p>
+        <p>I currently live in North Muskegon, Michigan.</p>
+      </section>
+    </main>
+  </body>
 </html>
