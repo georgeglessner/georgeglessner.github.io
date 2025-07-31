@@ -23,8 +23,12 @@ img, iframe {
 }
 
 /* Remove all Bootstrap and custom classes */
-.navbar, .navbar-brand, .navbar-toggler, .navbar-collapse, .navbar-nav, .nav-item, .nav-link, .container, .row, .col-md, .col-xs, .col-sm, .jumbotron, .display-5, .display-6, .center, .social, #others {
+/* .navbar, .navbar-brand, .navbar-toggler, .navbar-collapse, .navbar-nav, .nav-item, .nav-link, .container, .row, .col-md, .col-xs, .col-sm, .jumbotron, .display-5, .display-6, .center, .social, #others {
   all: unset;
+} */
+
+nav {
+  margin-bottom: 3em;
 }
 
 /* Remove padding/margins from containers */
@@ -35,7 +39,7 @@ img, iframe {
 
 li {
   font-size: 18px;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
 }
 
 /* Hide scrollbars for iframes */
