@@ -7,7 +7,7 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, li, .about, .project_description, #resume_header, #resume_link {
+h1, h2, h3, h4, h5, h6, p, a, li {
   font-family: inherit !important;
   color: inherit !important;
   font-weight: normal;
@@ -22,19 +22,8 @@ img, iframe {
   border: none;
 }
 
-/* Remove all Bootstrap and custom classes */
-/* .navbar, .navbar-brand, .navbar-toggler, .navbar-collapse, .navbar-nav, .nav-item, .nav-link, .container, .row, .col-md, .col-xs, .col-sm, .jumbotron, .display-5, .display-6, .center, .social, #others {
-  all: unset;
-} */
-
 nav {
   margin-bottom: 3em;
-}
-
-/* Remove padding/margins from containers */
-.container, .row, .col-md, .col-xs, .col-sm {
-  padding: 0 !important;
-  margin: 0 !important;
 }
 
 li {
@@ -42,9 +31,12 @@ li {
   padding-bottom: 1em;
 }
 
-/* Hide scrollbars for iframes */
 iframe {
   overflow: hidden;
+}
+
+.heading {
+  text-align: center;
 }
 
 @media (max-width: 600px) {
