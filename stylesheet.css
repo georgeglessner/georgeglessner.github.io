@@ -1,25 +1,36 @@
 body {
   background: #fff;
   color: #000;
-  font-family: 'Fira Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+  font-family: "Fira Mono", "Menlo", "Monaco", "Consolas", monospace;
   font-size: 18px;
   margin: 0;
   padding: 0;
   line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, li {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
   font-family: inherit !important;
   color: inherit !important;
   font-weight: normal;
 }
 
-a:link, a:visited, a:hover {
+a:link,
+a:visited,
+a:hover {
   color: #000;
   text-decoration: underline;
 }
 
-img, iframe {
+img,
+iframe {
   border: none;
 }
 
@@ -41,10 +52,41 @@ iframe {
 }
 
 @media (max-width: 600px) {
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-size: 1.1em !important;
   }
-  nav, p {
+  nav,
+  p {
     font-size: 0.8em !important;
   }
+}
+
+/* Wiki */
+body#wiki {
+  display: flex;
+  place-items: center;
+}
+
+button#wiki {
+  height: 50px;
+  width: 100px;
+  color: yellow;
+  background-color: green;
+}
+
+#wiki {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  border: none;
+  display: block;
+  width: 100%;
+  border: none;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
